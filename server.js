@@ -1,9 +1,8 @@
-//sever ko chalana
-//db ko connect karna
-
 import app from "./src/app.js"
 import connectDB from "./src/config/db.js"
-
+ 
+//sever ko chalana
+//db ko connect karna
 
 connectDB();
 

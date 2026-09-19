@@ -6,6 +6,8 @@ const authRouter = express.Router();
 
 authRouter.post("/register",authController.register);
 
+authRouter.get("/get-me",authController.getMe);
+
 
 
 
